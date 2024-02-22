@@ -1,0 +1,10 @@
+
+.bordering{
+    border: 2px solid gray;
+}
+
+.container__preview{
+    /* border: 1px inset black; */
+    box-shadow: 1px 1px 1px 1px black;
+
+}

@@ -1,0 +1,49 @@
+body{
+    background-color:  var(--very-dark-blue)
+}
+
+.container__top{
+    color: white;
+    background-color: var(--dark-blue);
+}
+
+
+
+.input__country{
+    background-color: var(--very-dark-blue);
+    color: white;
+}
+
+.container__front__page{color: white};
+
+/* .input__country{
+    background-color: var(--dark-blue);
+    color: white !important;
+} */
+
+input::placeholder {
+    color: white;
+}
+
+#regions{
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.container__preview{
+    background-color: var(--dark-blue);
+}
+
+.container__detail{
+    color: white;
+}
+
+.button__back{
+    color: white;
+    background-color: var(--dark-blue);
+    border: 1px solid black;
+}
+
+.bordering{
+    background-color: var(--dark-blue);
+}

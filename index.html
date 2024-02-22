@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_all.css">
+    <link rel="stylesheet" href="style_mobile.css">
+    <link rel="stylesheet" href="style_mid1.css">
+    <link rel="stylesheet" href="style_mid2.css">
+    <link rel="stylesheet" href="style_desktop.css">
+    <link rel="stylesheet" href="style_light.css">
+    <link rel="stylesheet" href="style_dark.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <title>REST Countries API with color theme switcher</title>
+</head>
+<body>
+    <div class="container__top">
+        <div class="text__top">Where in the world?</div>
+        <div class="mode dark">
+        <span>&#9789;</span>
+            Light Mode</div>
+    </div>
+    <main>
+        <div class="container__mid">
+            <div class="container__input">
+                <input type="text" class="input__country" placeholder="Search for a country...">
+                <i class="fa fa-search"></i>
+            </div>
+            <!-- <button></button> -->
+            <div class="dropdown">
+                <select id="regions" name="regions">
+                <option value="" disabled selected>Filter by region</option>
+                <option value="All">All</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+        </div>
+        <div class="container__front__page">
+           </div>
+        <div class="container__detail__page">
+            <button class="button__back hidden"><span class="arrow">&#8592;</span>Back</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

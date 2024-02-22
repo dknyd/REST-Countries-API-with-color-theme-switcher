@@ -1,0 +1,170 @@
+:root {
+    --dark-blue: hsl(209, 23%, 22%);
+    --very-dark-blue: hsl(207, 26%, 17%);
+    --very-dark-blue-light-mode-text: hsl(200, 15%, 8%);
+    --dark-gray-light-mode-input: hsl(0, 0%, 52%);
+    --very-light-gray-light-mode-background: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.hidden{
+   display: none !important;
+}
+
+main{
+    padding: 0rem 3rem;
+}
+
+/* TOP */
+.container__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    padding: 0rem 3rem;
+    font-weight: 800;
+}
+
+.text__top{
+    font-size: 2rem;
+}
+
+.mode:hover{cursor: pointer;}
+
+/* MID */
+.container__mid{
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+#regions{
+    height: 3.3rem;
+    border-radius: 0.3rem;
+    width: 10rem;
+    text-align: center;
+}
+
+input{
+    height: 3rem;
+    border-radius: 0.1rem;
+    border: none;
+    box-shadow: 1px 1px 1px 1px grey;
+    
+}
+
+/* FRONT  */
+
+.container__preview{
+    width: 1fr;
+    height:25rem;
+    box-shadow: 5px;
+    border-radius: 0.5rem;
+}
+
+.container__preview:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-filter: brightness(140%);
+    transition: linear .15s;
+}
+
+
+.preview__flag{
+    width: 100%;
+    height: 10rem;
+    border-radius:0.5rem 0.5rem 0rem 0rem;
+}
+
+.preview__name{
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+    font-weight: 800;
+    padding: 0rem 1rem;
+}
+
+.preview__population{
+    padding: 0rem 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.preview__region{
+    padding: 0rem 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+
+}
+
+.preview__capital{
+    padding: 0rem 1rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.data{font-weight: 300;}
+
+
+/* DETAILS  */
+
+.button__back{
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    padding: 0.3rem 2rem;
+    margin-bottom: 3rem;
+    border-radius: 0.3rem;
+}
+
+.button__back:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    -webkit-filter: brightness(140%);
+    transition: linear .15s;
+}
+
+.arrow{
+    margin-right: 1rem;
+}
+
+.common__name{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.details__name, .details__population, .details__region, .details__capital, .details__domain, .details__currency, .details__language, .text__bordering{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.name__data, .population__data, .region__data, .capital__data, .domain__data, .currency__data, .language__data{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text__bordering{
+    margin-right: 2rem;
+}
+
+.bordering{
+    height: 2rem;
+    padding: 0rem 2rem;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+    width: 8rem;
+}
